@@ -1,0 +1,36 @@
+{
+  "testDetails": [
+    {
+      "id": 1,
+      "results": [
+        {
+          "labtestid": 22,
+
+          "firstTestResult": 355.5,
+          "secondTestResult": 24.1
+        },
+        {
+          "labtestid": 55,
+          "firstTestResult": 55.3,
+          "secondTestResult": 17.2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "results": [
+        {
+          "labtestid": 22,
+
+          "firstTestResult": 92.2,
+          "secondTestResult": 444.1
+        },
+        {
+          "labtestid": 55,
+          "firstTestResult": 30,
+          "secondTestResult": 51
+        }
+      ]
+    }
+  ]
+}

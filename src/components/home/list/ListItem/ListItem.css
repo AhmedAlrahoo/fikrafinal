@@ -1,0 +1,19 @@
+.link{
+    text-decoration: none;
+    color: black;
+}
+tr td:first-of-type{
+    text-align: start;
+    padding-left: 10px;
+}
+tr td{
+    padding: 12px 0;
+}
+.row{
+    color: black;
+    
+}
+.row:hover .link{
+    color: #0090d3;
+    cursor: pointer;
+}

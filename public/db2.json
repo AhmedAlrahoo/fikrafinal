@@ -1,0 +1,56 @@
+{
+  "data": [
+    {
+      "id": 2,
+      "patientName": "Ali mohammed",
+      "patientPhoneNumber": "077030023",
+      "patientAge": 40,
+      "testDate": "2021-06-10",
+      "testResults": [
+        {
+          "firstTestResult": "negative",
+          "secondTestResult": "negative",
+          "labTestType": 1
+        },
+        {
+          "firstTestResult": "negative",
+          "secondTestResult": "negative",
+          "labTestType": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "patientName": "Ahmed Ihsan",
+      "patientPhoneNumber": "0781563158",
+      "patientAge": 40,
+      "testDate": "2019-06-28",
+      "testResults": [
+        {
+          "firstTestResult": "negative",
+          "secondTestResult": "negative",
+          "labTestType": 1
+        },
+        {
+          "firstTestResult": "negative",
+          "secondTestResult": "negative",
+          "labTestType": 1
+        }
+      ]
+    },
+    {
+      "patientName": "Mohammed",
+      "patientAge": "41",
+      "patientPhoneNumber": "0770122446",
+      "testDate": "2021-06-02",
+      "testResults": [
+        {
+          "id": "22",
+          "firstTestResult": "33",
+          "secondTestResult": ""
+        }
+      ],
+      "id": 3
+    }
+  ]
+}

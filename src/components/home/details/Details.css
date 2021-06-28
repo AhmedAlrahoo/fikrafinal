@@ -1,0 +1,70 @@
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+}
+.details .info .field{
+    padding: 15px 15px;
+    border-radius: 15px;
+    border: none;
+    width: 49%;
+    box-shadow: 0px 5px 6px 1px rgba(0, 0, 0, 0.02);
+    background-color: white;
+    margin: 0 5px;
+
+}
+.details form{
+    width: 50%;
+}
+.details .info{
+    display: flex;
+    justify-content: space-between;
+    margin: 13px 0;
+}
+
+.vector{
+    width: 35%;
+}
+.button{
+    margin-top: 10px;
+    padding: 13px 25px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 5px 3px 1px rgba(0, 0, 0, 0.116);
+    transition: 0.4s ease-in-out;
+}
+.button:hover{
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.00);
+
+}
+.result{
+    display: flex;
+    justify-content: space-around;
+}
+.result .resultDetails{
+
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: none;
+    height: 80px;
+    resize: none;
+    box-shadow: 0px 5px 6px 1px rgba(0, 0, 0, 0.02);
+    background-color: white;
+}
+.result .resultName{
+    
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: none;
+    margin: 0px 0 13px 0;
+    box-shadow: 0px 5px 6px 1px rgba(0, 0, 0, 0.02);
+    background-color: white;
+}
+.link{
+    text-decoration: none;
+}

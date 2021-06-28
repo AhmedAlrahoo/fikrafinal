@@ -1,0 +1,28 @@
+table{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 70px;
+    border-collapse: collapse;
+}
+table .table-sheet th{
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+table .table-sheet th:first-of-type{
+    text-align: start;
+    padding-left: 10px;
+    width: 20%;
+}
+table .table-sheet th:nth-of-type(2){
+    width: 25%;
+}
+.table-sheet{
+    position: relative;
+    border-bottom: solid 1px black;
+}

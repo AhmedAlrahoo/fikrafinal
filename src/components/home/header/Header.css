@@ -1,0 +1,27 @@
+
+.header form{
+    display: flex;
+    justify-content: space-between;
+    width: 170%;
+    background-color: white;
+    /* float: right; */
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+.header form:hover{
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+
+}
+.header form input{
+    width: 130%;
+    padding: 6px 5px;
+}
+.header .flx{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.header .avatar{
+    margin-left: 23%;
+}
