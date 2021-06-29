@@ -80,14 +80,21 @@ const AddInfo = () => {
             headers: {
                 'Content-Type': 'application/json'
               },
-            body: {
-                "patient_name" : `${patient_name}`,
-                "test_data" : `${test_date}`,
-                "patient_phone_number" : `${patient_phone_number}`,
-                "patient_age" : `${patient_age}`,
-                "test_results": test_results
-            }
-        }).then((res) => res.json()).then((inf)=>console.log(inf));
+              body:JSON.stringify({
+                  patient_name,
+                test_date,
+                patient_phone_number,
+                patient_age,
+                test_results
+              })
+            }).then(() => history.push("/"));
+            // body: {
+            //     "patient_name" : `${patient_name}`,
+            //     "test_data" : `${test_date}`,
+            //     "patient_phone_number" : `${patient_phone_number}`,
+            //     "patient_age" : `${patient_age}`,
+            //     "test_results": test_results
+            // }
 
         setPatientName("");
         setPatientAge("");
